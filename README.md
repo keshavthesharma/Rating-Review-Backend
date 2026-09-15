@@ -42,4 +42,4 @@ A zero-dependency RESTful API built purely with standard Python libraries (`http
 
 Visit `http://localhost:8000/dashboard` in your browser to view the structured JSON response:
 
-![Dashboard Response](Dashboard%20Response.png)
+![Dashboard Response](dashboard_response.png)
