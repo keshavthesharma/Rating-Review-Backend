@@ -34,7 +34,7 @@ A zero-dependency RESTful API built purely with standard Python libraries (`http
 1. Open your terminal or command prompt.
 2. Run the server script:
 
-    python main.py
+python main.py
 
 *(Note: Use `python3 main.py` if you are on Linux/macOS).*
 
