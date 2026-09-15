@@ -2,6 +2,8 @@
 
 A zero-dependency RESTful API built purely with standard Python libraries (`http.server`, `sqlite3`, `hashlib`, `json`). It supports user registration, token-based authentication, product item creation, and review submissions, featuring a consolidated dashboard endpoint.
 
+**Prerequisite:** Requires Python 3.8+
+
 ---
 
 ## Features
@@ -30,11 +32,14 @@ A zero-dependency RESTful API built purely with standard Python libraries (`http
 ## How to Run
 
 1. Open your terminal or command prompt.
-2. Run the following command:
+2. Run the server script:
 
     python main.py
 
-3. The server will start locally. You can access the API at `http://localhost:8000`.
+*(Note: Use `python3 main.py` if you are on Linux/macOS).*
+
+3. **Database Initialization**: A local SQLite database file will automatically generate in the root directory upon first boot. 
+4. The server will start locally. You can access the API at `http://localhost:8000`.
 
 ---
 
